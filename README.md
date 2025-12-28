@@ -45,13 +45,13 @@ A Telegram bot that allows you to wake up your PC remotely using Wake-on-LAN fro
 ### Step 2: Install Dependencies
 Open Termux and run:
 
-# Update package lists
+Update package lists
 ```pkg update && pkg upgrade -y```
 
-# Install required packages
+Install required packages
 ```pkg install python wakeonlan git nano curl wget -y```
 
-# Install Python library
+Install Python library
 ```pip install requests```
 
 ### Step 3: Clone This Repository
