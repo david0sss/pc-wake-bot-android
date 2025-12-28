@@ -514,7 +514,7 @@ If this project helped you:
 
 ### Before Asking for Help:
 1. Check the [Troubleshooting](#-troubleshooting-guide) section
-2. Look at existing [Issues](https://github.com/yourusername/pc-wake-bot-android/issues)
+2. Look at existing [Issues](https://github.com/david0sss/pc-wake-bot-android/issues)
 3. Search closed issues for similar problems
 4. **ALWAYS use AI firstly to analyse the code and errors, it helps VERY often.**
 
