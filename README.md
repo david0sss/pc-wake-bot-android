@@ -88,7 +88,7 @@ chmod +x pc_wake_bot.py
 ```
 
 ### Step 6: Run the Bot
-### Run only after [connecting your telegram bot](#Telegram Bot Creation) to your termux script, otherwise it wouldn't work
+### Run only after [connecting your telegram bot](#-Telegram Bot Creation) to your termux script, otherwise it wouldn't work
 ```bash
 ./start_bot.sh
 ```
