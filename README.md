@@ -45,13 +45,18 @@ A Telegram bot that allows you to wake up your PC remotely using Wake-on-LAN fro
 ### Step 2: Install Dependencies
 Open Termux and run:
 
-Update package lists
+#### Update package lists
 ```pkg update && pkg upgrade -y```
 
-Install required packages
-```pkg install python wakeonlan git nano curl wget -y```
+#### Install Python
+```pkg install python```
 
-Install Python library
+#### Install required packages
+```pkg install python wakeonlan git nano curl wget -y```
+or
+```pip install wakeonlan```
+
+#### Install Python library
 ```pip install requests```
 
 ### Step 3: Clone This Repository
@@ -83,6 +88,7 @@ chmod +x pc_wake_bot.py
 ```
 
 ### Step 6: Run the Bot
+#### Run only after [connecting your telegram bot](#-Telegram-Bot-Creation) to your termux script, otherwise it wouldn't work
 ```bash
 ./start_bot.sh
 ```
